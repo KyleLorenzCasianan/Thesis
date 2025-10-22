@@ -6,6 +6,10 @@
             <div className='mx-auto max-w-6xl p-4'>
                 <div className='flex items-center justify-between'>
                     <h1 className='text-3xl font-bold text-primary font-mono tracking-tight'>Soil Fertility Monitor</h1>
+                    <h1>
+                        <button className ='btn btn-accent btn-sm rounded-full'> Connect Sensor </button>
+                        <button className ='btn btn-secondary btn-sm roundeed-full ml-4'>Sign Up</button>
+                    </h1>
                 </div>
 
             </div>

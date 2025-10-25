@@ -1,9 +1,8 @@
 import React from "react";
 import LandPageNav from "../Components/LandPageNav";
-import LandPageParagrah from "../Components/LandPageParagrah";
-import LandPagePicture from "../Components/LandPagePicture";
 import LandPageCenter from "../Components/LandPageCenter";
-import LandPageBottom from "../Components/LandPageBottom";
+
+
 
 
 const LandingPage = () => {
@@ -11,11 +10,8 @@ const LandingPage = () => {
     <div className="min-h-screen">
       <LandPageNav />
       <div className="flex m-10">
-        <LandPageParagrah />
-        <LandPagePicture />
+        <LandPageCenter />
       </div>
-      <LandPageCenter />
-      <LandPageBottom />
     </div>
   );
 };

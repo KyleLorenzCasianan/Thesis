@@ -1,20 +1,15 @@
 import React from "react";
 import LandPageNav from "../Components/LandPageNav";
-import LandPageParagrah from "../Components/LandPageParagrah";
-import LandPagePicture from "../Components/LandPagePicture";
 import LandPageCenter from "../Components/LandPageCenter";
+import LandPageFeature from "../Components/LandPageFeature";
 import LandPageBottom from "../Components/LandPageBottom";
-
 
 const LandingPage = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-base-200">
       <LandPageNav />
-      <div className="flex m-10">
-        <LandPageParagrah />
-        <LandPagePicture />
-      </div>
       <LandPageCenter />
+      <LandPageFeature />
       <LandPageBottom />
     </div>
   );

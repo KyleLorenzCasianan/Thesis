@@ -31,9 +31,11 @@ const LandPageNav = () => {
         </div>
       
         <div className="flex-none">
-          <button className="btn btn-primary rounded-full mr-5 btn-ghost">
-              About this Project
-          </button>
+          <Link to="/about">
+            <button className="btn btn-primary rounded-full mr-5 btn-ghost">
+                About this Project
+            </button>
+          </Link>
           <Link to="/login">
               <button className="btn btn-primary rounded-full mr-5 btn-ghost">
                   Sign Up
